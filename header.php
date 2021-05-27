@@ -61,41 +61,32 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about-us.html">会社概要</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="<?php echo home_url( '/' ) ?>">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/about-us.php">会社概要</a></li>
                         <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="service.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             事業内容
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="service.html">事業内容</a></li>
-                                <li class="nav-item"><a class="nav-link" href="pm.html">賃貸管理について</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/service.php">事業内容</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/pm.php">賃貸管理について</a></li>
                               
                             </ul>
                         </li> 
 
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">マンション経営</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/portfolio.php">マンション経営</a></li>
                         <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="client.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="client.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 お客様窓口
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="client.html">退去申請</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client2.html">購入のお問合せ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client3.html">売却のお問合せ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/client.php">退去申請</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/client2.php">購入のお問合せ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/client3.php">売却のお問合せ</a></li>
                             </ul>
                         </li> 
-                        <!-- <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-                            </ul>
-                        </li> -->
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="<?php echo get_template_directory_uri() ?>/contact.php">Contact</a></li>
                     </ul>
                 </div>
             </nav>

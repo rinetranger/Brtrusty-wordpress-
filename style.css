@@ -4,7 +4,7 @@ Theme Name:BRtrusty
 Theme URI:https://myhomepage.vercel.app
 Author: RK
 Author URI:https://myhomepage.vercel.app
-Description: RKmaing 
+Description: RKmaking 
 Version: 1.0
 License: GNU 
 License URI: 
@@ -14,6 +14,7 @@ Text Domain: BRtrusty
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
 
 
 /*=====================================================================
@@ -2796,3 +2797,11 @@ background-color:#CCCCCC;
       margin-left: 35px;
   }
 }
+
+@media (min-width: 751px) {
+  a[href*="tel:"] {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  }
+  }

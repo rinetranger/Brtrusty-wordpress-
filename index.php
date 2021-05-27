@@ -1,12 +1,6 @@
-<?php get_header();?>
-        
-        
+<?php get_header();?>     
         <!--================Slider Area =================-->
-        
-
         <section class="main_slider_area">
-            
-
             <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
                 <video id="bg-video" src="<?php echo get_template_directory_uri(); ?>/img/BRTRUSTY4.mp4" poster="img/home-slider/slider-bg-1.png" autoplay loop playsinline muted class="video"></video>
                 <ul>
@@ -58,7 +52,7 @@
                                 data-type="text" 
                                 data-responsive_offset="on" 
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                                <a class="more_btn" href="service.html">詳細へ</a>
+                                <a class="more_btn" href="service.php">詳細へ</a>
                             </div>
                             <!-- <div class="tp-caption tp-resizeme single_img" 
                             data-x="['right','right','right','right','right','right']" 
@@ -130,7 +124,7 @@
                                 data-type="text" 
                                 data-responsive_offset="on" 
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                                <a class="more_btn" href="service.html">詳細へ</a>
+                                <a class="more_btn" href="service.php">詳細へ</a>
                             </div>
                             <!-- <div class="tp-caption tp-resizeme single_img" 
                             data-x="['right','right','right','right','right','right']" 
@@ -201,7 +195,7 @@
                                 data-type="text" 
                                 data-responsive_offset="on" 
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                                <a class="more_btn" href="service.html">詳細へ</a>
+                                <a class="more_btn" href="service.php">詳細へ</a>
                             </div>
                             <!-- <div class="tp-caption tp-resizeme single_img" 
                             data-x="['right','right','right','right','right','right']" 
@@ -243,7 +237,7 @@
                             </div>
                             <h4 class="aw">不動産物件販売</h4>
                             <p class="">弊社ではお客様のニーズに合わせて、分譲ファミリーマンションや一戸建ての販売も行っております。</p>
-                            <a class="more_btn" href="service.html#service001">Read More</a>
+                            <a class="more_btn" href="service.php#service001">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -254,7 +248,7 @@
                             </div>
                             <h4 class="aw">賃貸管理</h4>
                             <p class="">投資前に管理者を選定することはとても大切です。オーナー様の煩わしい全ての手続きを代行いたします。</p>
-                            <a class="more_btn" href="pm.html">Read More</a>
+                            <a class="more_btn" href="pm.php">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -265,7 +259,7 @@
                             </div>
                             <h4 class="aw">賃貸物件の紹介</h4>
                             <p class="">弊社では、お部屋探しのお手伝いも行っております。ご要望に沿った物件をご紹介いたします。お気軽にご相談ください。 </p>
-                            <a class="more_btn" href="service.html#service003">Read More</a>
+                            <a class="more_btn" href="service.php#service003">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -277,7 +271,7 @@
                             <h4 class="aw">保険代理店業務</h4>
                             <p class="">当社では
                                 東京海上日動火災保険（株）の保険商品をご紹介しております。 </p>
-                            <a class="more_btn" href="service.html#service004">Read More</a>
+                            <a class="more_btn" href="service.php#service004">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -288,7 +282,7 @@
                             </div>
                             <h4 class="aw">不動産コンサルティング</h4>
                             <p class="">当社では、不動産に係る全ての領域をカバーするコンサルティング業務を展開しております。不動産に関するアドバイザーがご必要な方、是非ご相談ください。 </p>
-                            <a class="more_btn" href="service.html#service005">Read More</a>
+                            <a class="more_btn" href="service.php#service005">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -299,7 +293,7 @@
                             </div>
                             <h4 class="aw">不動産物件仲介業務</h4>
                             <p class="">不動産の売却をお考えの方、当社では不動産売却のお手伝いをいたします。是非ご相談ください。 </p>
-                            <a class="more_btn" href="service.html#service006">Read More</a>
+                            <a class="more_btn" href="service.php#service006">Read More</a>
                         </div>
                     </div>
                     
@@ -342,7 +336,7 @@
                             <p>お客様のご相談に真摯に対応いたします。メールもしくは電話でのご相談、お気軽にお問合せください。<br/>受付時間：平日10:00〜18:00
                                 （土・日・祝日を除く）   </p>
                             <h5>お気軽にお電話ください。</h5>
-                            <a href="#"><h4><i class="fa fa-phone-square fa-x aw"></i>  03-5790-9700</h4></a>
+                            <a  class="tel" href="tel:0357909700"><h4><i class="fa fa-phone-square fa-x aw"></i>  03-5790-9700</h4></a>
                         </div>
                     </div>
                 </div>
