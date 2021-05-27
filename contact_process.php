@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     $to = "rinetranger@gmail.com";
     $from = $_REQUEST['email'];
@@ -34,4 +34,4 @@
 
     $send = mail($to, $subject, $body, $headers);
 
-?>
+?> -->
