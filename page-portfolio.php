@@ -1,101 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>BR TRUSTY</title>
-
-    <!-- Icon css link -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Rev slider css -->
-    <link href="vendors/revolution/css/settings.css" rel="stylesheet">
-    <link href="vendors/revolution/css/layers.css" rel="stylesheet">
-    <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
-
-    <!-- Extra plugin css -->
-    <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-    <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
-
-
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-</head>
-
-<body>
-
-    <!--================Header Menu Area =================-->
-    <header class="main_menu_area">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about-us.php">会社概要</a></li>
-                    <li class="nav-item dropdown submenu">
-                        <a class="nav-link dropdown-toggle" href="service.php" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            事業内容
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li class="nav-item"><a class="nav-link" href="service.php">事業内容</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pm.php">賃貸管理について</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item active"><a class="nav-link" href="portfolio.php">マンション経営</a></li>
-                    <!-- <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.php">Elements</a></li>
-                            </ul>
-                        </li> -->
-                        <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="client.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                お客様窓口
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="client.php">退去申請</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client2.php">購入のお問合せ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client3.php">売却のお問合せ</a></li>
-                            </ul>
-                        </li> 
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!--================End Header Menu Area =================-->
-
+<?php
+/*
+Template Name: portfolio
+*/
+ get_header("portfolio");?> 
     <!--================Banner Area =================-->
     <section class="banner_area">
         <div class="container">
@@ -234,19 +141,23 @@
                         <div class="l_title">
                             <i class="fa fa-thumbs-o-up fa-3x aw mb-5"></i>
                             <h6>Discover the features</h6>
-                            <h4 class="title020">マンション投資の7つのメリット</h4>
+                            <h4 class="title020">マンション投資のしくみ</h4>
+                            <p class="lead-service mt-5">
+                                マンションを購入し、ご自身が住むのではなく、そのマンションを賃貸することにより、家賃収入を得ていくことをマンション投資・マンション経営と呼んでいます。</p>
+                            <p>マンション投資というと、マンション1棟全部をイメージされる方がおられるかと思いますが、1室（1部屋）の比較的小額投資からも始めることができます。
+                                ローンを利用して1室を購入、マンション投資を始められる場合、頭金も小額で、また簡単に始めることができ、家賃収入をベースに様々なメリットを享受することができる資産形成の方法と言えます。
+                                昨今では、ご自身とご家族の将来を、より豊かにするために、効率的な資産運用の手段としてのマンション経営を始められる方が大変増えています。</p>
+                                <div class="challange_img_inner mt-5" id="boxsh">
+                                    <img class="img-fluid" src="img/port100.png" alt="">
+                                </div>
+    
+                            <div class="clearfix"></div>
+          
                         </div>
 
 
-                        <p class="title03 pr-3"><i class="fa fa-caret-right fa-x aw mr-3"></i>マンション投資のしくみ</p>
-                        <p class="lead-service">
-                            マンションを購入し、ご自身が住むのではなく、そのマンションを賃貸することにより、家賃収入を得ていくことをマンション投資・マンション経営と呼んでいます。</p>
-                        <p>マンション投資というと、マンション1棟全部をイメージされる方がおられるかと思いますが、1室（1部屋）の比較的小額投資からも始めることができます。
-                            ローンを利用して1室を購入、マンション投資を始められる場合、頭金も小額で、また簡単に始めることができ、家賃収入をベースに様々なメリットを享受することができる資産形成の方法と言えます。
-                            昨今では、ご自身とご家族の将来を、より豊かにするために、効率的な資産運用の手段としてのマンション経営を始められる方が大変増えています。</p>
-
-                        <div class="clearfix"></div>
-                        <i class="fa fa-check fa-x aw mr-3"></i><p class="title03 pr-3"><i class="fa fa-caret-right fa-x aw mr-3"></i>メリット1. 一生涯の収入源  </p>
+                        <p class="title03 pr-3"><i class="fa fa-caret-right fa-x aw mr-3"></i>マンション投資の7つのメリット</p>
+                                         <br> <i class="fa fa-check fa-x aw mr-3"></i><p class="title03 pr-3"><i class="fa fa-caret-right fa-x aw mr-3"></i>メリット1. 一生涯の収入源  </p>
                         <p>生活必要資金を年金で得ようと考えると、若年の時から多額の年金保険料を長期間にわたって積み立てていかなければなりません。しかしここから先、公的年金制度が現在の支給額レベルを維持して存続することは難しく、将来的にはさらに保険料負担を重くするか支給額を大幅に削減するしかないといった状況です。
                             ですが、各大手保険会社や郵便局の私的年金商品は利率が低く、満足な利回りが望めません。
 
@@ -316,7 +227,8 @@
                             確定申告によって、給与所得と合算することにより、税務上は所得が減少し、所得税の還付、さらには住民税の軽減を受けることができるのです。
 
                             利回りの良さもさることながら、税金面での節税メリットがあることも、不動産投資の大きなポイントです。</p>
-
+                            
+        
 
                     </div>
                 </div>

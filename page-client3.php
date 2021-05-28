@@ -1,98 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>BR TRUSTY</title>
-
-        <!-- Icon css link -->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- Rev slider css -->
-        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
-        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
-        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
-        
-        <!-- Extra plugin css -->
-        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-        <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
-        
-        
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-        
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="main_menu_area">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.php">会社概要</a></li>
-                        <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="service.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            事業内容
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="service.php">事業内容</a></li>
-                                <li class="nav-item"><a class="nav-link" href="pm.php">賃貸管理について</a></li>
-                              
-                            </ul>
-                        </li> 
-                        <li class="nav-item"><a class="nav-link" href="portfolio.php">マンション経営</a></li>
-                        <!-- <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.php">Elements</a></li>
-                            </ul>
-                        </li> -->
-                        
-                        <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="client.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                お客様窓口
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="client.php">退去申請</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client2.php">購入のお問合せ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="client3.php">売却のお問合せ</a></li>
-                            </ul>
-                        </li> 
-                        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!--================End Header Menu Area =================-->
-        
+<?php
+/*
+Template Name: client3
+*/
+ get_header("client3");?> 
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">
@@ -189,6 +99,342 @@
                                 <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
                             </div>
                         </form>
+
+                        <!--------------->
+                        <div id="main">
+			<h1>物件無料査定依頼</h1>
+			<div id="btnprint"><a href="javascript:window.print();">PRINT</a></div>
+<div class="txtbox">
+			<ul class="steplist" id="step2">
+				<li id="btnstep1"><span>STEP01 査定依頼について</span></li>
+				<li id="btnstep2"><span>STEP02 依頼内容のご入力</span></li>
+				<li id="btnstep3"><span>STEP03 依頼内容のご確認</span></li>
+				<li id="btnstep4"><span>STEP04 送信完了</span></li>
+			</ul>
+
+			<h2>依頼内容のご入力</h2>
+			<ul class="list1">
+				<li>【必須】のついている項目は、入力必須です。</li>
+<li>画像などのデータファイルの添付はできませんのでご了承ください。</li>
+<li>半角カタカナで入力しますと正しく表示されなかったり、送信できない場合がありますので、半角カタカナのご使用はご遠慮ください。</li>
+			</ul>
+			<h4>ご売却予定の物件の所在地（対象エリア：1都3県東京都・神奈川県、千葉県、埼玉県）</h4>
+<form name="form1" action="./confirm.php" method="post">
+<input type="hidden" name="blocs_token" value="V6f8d6fec8af123e48fe85bb52c9d5e4c">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tbl1">
+					<tbody>
+						<tr>
+							<th width="10%" rowspan="4" style="border-left: none;">住所</th>
+							<th width="20%" class="lineL">郵便番号<span class="hissu">必須</span></th>
+							<td width="70%" style="border-left: none; border-top: 1px solid rgb(193, 213, 234);">
+
+
+<label><input name="zip1" type="text" class="txtformS "></label> -
+<label><input name="zip2" type="text" class="txtformS "></label>
+								<br>
+								<div class="formarea w93">例：100</div>
+								<div class="formarea w83">例：0004</div>
+								<br>
+								<span class="note1">半角数字でご入力ください</span></td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">都道府県<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+<ul class="list">
+<li><label><input name="pref" type="radio" value="東京都" class=""> 東京都</label></li>
+<li><label><input name="pref" type="radio" value="神奈川県" class=""> 神奈川県</label></li>
+<li><label><input name="pref" type="radio" value="千葉県" class=""> 千葉県</label></li>
+<li><label><input name="pref" type="radio" value="埼玉県" class=""> 埼玉県</label></li>
+</ul>
+						</td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">市区町村<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+<input name="addr1" type="text" class="txtformL " placeholder="">
+								<br>
+								<div class="formarea">例：千代田区</div></td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">それ以降の住所またはマンション名<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+<input name="addr2" type="text" class="txtformL " placeholder="">
+								<div class="formarea">例：大手町一丁目９番７号 大手町フィナンシャルシティ サウスタワー16階</div></td>
+						</tr>
+						<tr>
+							<th colspan="2" style="border-left: none;">種別<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+								<ul class="list">
+<li><label><input name="type" type="radio" value="1" class=""> 区分所有マンション</label></li>
+<li><label><input name="type" type="radio" value="2" class=""> 一棟マンション・アパート</label></li>
+<li><label><input name="type" type="radio" value="3" class=""> 一戸建て</label></li>
+<li><label><input name="type" type="radio" value="4" class=""> 土地</label></li>
+<li><label><input name="type" type="radio" value="5" class=""> その他</label> <input name="type_other" type="text" class="txtformM " placeholder=""></li>
+							</ul></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h4>ご売却予定の物件の詳細</h4>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tbl1">
+					<tbody>
+						<tr>
+							<th width="30%" style="border-left: none;">面積</th>
+							<td width="70%" style="border-left: none; border-top: 1px solid rgb(193, 213, 234);"><ul class="list">
+								<li>土地：
+<input name="land_size" type="text" class="txtformS " placeholder="">
+							<label>
+								<input type="radio" name="land" value="1"> m<sup>2</sup></label> <label>
+								<input type="radio" name="land" value="2"> 坪</label></li>
+								<li>建物：
+<input name="bldg_size" type="text" class="txtformS " placeholder="">
+							<label>
+								<input type="radio" name="bldg" value="1"> m<sup>2</sup></label> <label>
+								<input type="radio" name="bldg" value="2"> 坪</label></li>
+							</ul>
+</td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">築年</th>
+							<td style="border-left: none;">
+								<label><input type="radio" name="age_era" value="1"> 昭和</label>
+								<label><input type="radio" name="age_era" value="2"> 平成</label>
+<input name="age" type="text" class="txtformS " placeholder="">
+							年築</td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">構造</th>
+							<td style="border-left: none;"><ul class="list">
+								<li>
+									<label><input name="structure" type="radio" value="1"> 木造</label>
+								</li>
+								<li>
+									<label><input name="structure" type="radio" value="2"> 鉄筋コンクリート</label>
+								</li>
+								<li>
+									<label><input name="structure" type="radio" value="3"> 鉄筋鉄骨コンクリート</label></li>
+								<li>
+									<label><input name="structure" type="radio" value="4"> その他</label></li>
+							</ul></td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">間取り</th>
+							<td style="border-left: none;"><select name="floorplan" id="select2">
+<option value="" selected="">選択してください</option>
+<option value="1R">1R</option>
+<option value="1K">1K</option>
+<option value="1DK">1DK</option>
+<option value="1LDK">1LDK</option>
+<option value="2DK">2DK</option>
+<option value="2LDK">2LDK</option>
+<option value="3DK">3DK</option>
+<option value="3LDK">3LDK</option>
+<option value="4DK">4DK</option>
+<option value="その他">その他</option>
+</select></td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">その他</th>
+							<td style="border-left: none;">
+<textarea name="other" rows="10" class="txtformL " placeholder=""></textarea>
+								<br>
+							<span class="note1">売却希望時期・価格、物件の詳細、ご要望等ありましたら、
+ご記入ください。</span></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h4>お客様情報</h4>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tbl1">
+					<tbody>
+						<tr>
+							<th width="30%" style="border-left: none;">お名前<span class="hissu">必須</span></th>
+							<td width="70%" style="border-left: none; border-top: 1px solid rgb(193, 213, 234);">
+
+
+<label>姓 <input name="name1" type="text" class="txtformM " placeholder=""></label>
+<label class="ml20">名 <input name="name2" type="text" class="txtformM " placeholder=""></label>
+							</td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">フリガナ<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+
+
+
+<label>セイ <input name="kana1" type="text" class="txtformM " placeholder=""></label>
+<label class="ml20">メイ <input name="kana2" type="text" class="txtformM " placeholder=""></label>
+								<br>
+								<div class="formarea w212">例：ムゲン</div>
+								<div class="formarea w192">例：タロウ</div>
+								<br>
+								<span class="note1">全角カタカナでご入力ください</span></td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">電話番号<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+
+<label><input name="tel1" type="text" class="txtformS " placeholder=""></label> -
+<label><input name="tel2" type="text" class="txtformS " placeholder=""></label> -
+<label><input name="tel3" type="text" class="txtformS " placeholder=""></label>
+								<br>
+								<div class="formarea w96">例：03</div><div class="formarea w96">例：6665</div><div class="formarea w83">例：0581</div>
+								<br>
+								<span class="note1">半角数字でご入力ください</span></td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">メールアドレス<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+
+<input name="mail" type="text" class="txtformL " placeholder="">
+								<div class="formarea">例：mugen@mugen-estate.co.jp</div>
+								<br>
+								<span class="note1">半角英数字でご入力ください</span></td>
+						</tr>
+						<tr>
+							<th style="border-left: none;">メールアドレス（確認）<span class="hissu">必須</span></th>
+							<td style="border-left: none;">
+
+
+<input name="mail_conf" type="text" class="txtformL " placeholder="">
+								<div class="formarea">例：mugen@mugen-estate.co.jp</div>
+								<br>
+								<span class="note1">上欄と同じメールアドレスを半角英数字でご入力ください</span></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h5 class="mt20">ご連絡先住所がご売却予定の物件と異なる場合のみご記入ください。</h5>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tbl1">
+					<tbody>
+						<tr>
+							<th width="10%" rowspan="4" style="border-left: none;">ご連絡先住所</th>
+							<th width="20%" class="lineL">郵便番号</th>
+							<td style="border-left: none; border-top: 1px solid rgb(193, 213, 234);">
+
+
+<label><input name="alt_zip1" type="text" class="txtformS "></label> -
+<label><input name="alt_zip2" type="text" class="txtformS "></label>
+								<br>
+								<div class="formarea w93">例：100</div>
+								<div class="formarea w83">例：0004</div>
+								<br>
+								<span class="note1">半角数字でご入力ください</span></td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">都道府県</th>
+							<td style="border-left: none;">
+
+<select name="alt_pref" id="select" class="txtformM ">
+<option value="" selected="">都道府県</option>
+<option value="北海道">北海道</option>
+<option value="青森県">青森県</option>
+<option value="岩手県">岩手県</option>
+<option value="宮城県">宮城県</option>
+<option value="秋田県">秋田県</option>
+<option value="山形県">山形県</option>
+<option value="福島県">福島県</option>
+<option value="茨城県">茨城県</option>
+<option value="栃木県">栃木県</option>
+<option value="群馬県">群馬県</option>
+<option value="埼玉県">埼玉県</option>
+<option value="千葉県">千葉県</option>
+<option value="東京都">東京都</option>
+<option value="神奈川県">神奈川県</option>
+<option value="新潟県">新潟県</option>
+<option value="富山県">富山県</option>
+<option value="石川県">石川県</option>
+<option value="福井県">福井県</option>
+<option value="山梨県">山梨県</option>
+<option value="長野県">長野県</option>
+<option value="岐阜県">岐阜県</option>
+<option value="静岡県">静岡県</option>
+<option value="愛知県">愛知県</option>
+<option value="三重県">三重県</option>
+<option value="滋賀県">滋賀県</option>
+<option value="京都府">京都府</option>
+<option value="大阪府">大阪府</option>
+<option value="兵庫県">兵庫県</option>
+<option value="奈良県">奈良県</option>
+<option value="和歌山県">和歌山県</option>
+<option value="鳥取県">鳥取県</option>
+<option value="島根県">島根県</option>
+<option value="岡山県">岡山県</option>
+<option value="広島県">広島県</option>
+<option value="山口県">山口県</option>
+<option value="徳島県">徳島県</option>
+<option value="香川県">香川県</option>
+<option value="愛媛県">愛媛県</option>
+<option value="高知県">高知県</option>
+<option value="福岡県">福岡県</option>
+<option value="佐賀県">佐賀県</option>
+<option value="長崎県">長崎県</option>
+<option value="熊本県">熊本県</option>
+<option value="大分県">大分県</option>
+<option value="宮崎県">宮崎県</option>
+<option value="鹿児島県">鹿児島県</option>
+<option value="沖縄県">沖縄県</option>
+</select>
+</td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">市区町村</th>
+							<td style="border-left: none;">
+
+<input name="alt_addr1" type="text" class="txtformL " placeholder="">
+								<br>
+								<div class="formarea">例：千代田区</div></td>
+						</tr>
+						<tr>
+							<th class="lineL" style="border-left: none;">それ以降の住所</th>
+							<td style="border-left: none;">
+
+<input name="alt_addr2" type="text" class="txtformL " placeholder="">
+								<div class="formarea">例：大手町一丁目９番７号 大手町フィナンシャルシティ サウスタワー16階</div></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h4>よろしければアンケートにご協力ください</h4>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tbl1">
+					<tbody>
+						<tr>
+							<th width="30%" rowspan="4" style="border-left: none;">当社を知ったきっかけ</th>
+							<td style="border-left: none; border-top: 1px solid rgb(193, 213, 234);"><ul class="halflist">
+								<li><label><input name="from[]" type="checkbox" value="1"> 当社ホームページ</label></li>
+								<li><label><input name="from[]" type="checkbox" value="2"> 不動産関連ポータルサイト</label></li>
+								<li><label><input name="from[]" type="checkbox" value="3"> 新聞広告</label></li>
+								<li><label><input name="from[]" type="checkbox" value="4"> 折込ちらし</label></li>
+								<li><label><input name="from[]" type="checkbox" value="5"> 知人の紹介</label></li>
+								<li><label><input name="from[]" type="checkbox" value="6"> 不動産仲介会社様からの紹介</label></li>
+								<li class="fullline"><label><input name="from[]" type="checkbox" value="7"> その他</label> <input name="from7_detail" type="text" class="txtformL "></li>
+							</ul></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="btnslist">
+					<ul>
+						<li><input type="submit" class="btninput" value="入力内容を確認する"></li>
+					</ul>
+				<!-- end of class(btnslist) -->
+				</div>
+</form>
+			<!-- end of class(txtbox) -->
+			</div>
+			<!-- end of id(main) -->
+		</div>
+        <!------------->
+
+
                         <div id="accordion" role="tablist" class="solution_collaps">
                             <div class="card">
                                 <div class="card-header" role="tab" id="headingOne">

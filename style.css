@@ -356,7 +356,7 @@ _:-ms-lang(x)::-ms-backdrop, .main_menu_area.navbar_fixed {
 
 .banner_area:before {
   content: "";
-  background: url(../img/banner/banner-bg.jpg) no-repeat scroll center right;
+  background: url("img/banner/banner-bg.png") no-repeat scroll center right;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -2785,12 +2785,6 @@ background-color:#CCCCCC;
   }
 }
 
-/* @media all and (-ms-high-contrast: none) {
-  .main_menu_area.navbar_fixed {
- 
-   color: rgb(85,111,110);
-  }
-} */
 
 @media screen and (min-width: 479px)  {
   #leftspace{
@@ -2804,4 +2798,4 @@ background-color:#CCCCCC;
   cursor: default;
   text-decoration: none;
   }
-  }
+}
