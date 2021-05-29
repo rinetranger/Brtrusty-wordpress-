@@ -28,7 +28,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-1.png" alt=""> -->
+                                
                                 <i class="far fa-building fa-3x aw"></i>
                             </div>
                             <h4 class="aw">不動産物件販売</h4>
@@ -39,7 +39,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-2.png" alt=""> -->
+                                
                                 <i class="fas fa-file-contract fa-3x aw"></i>
                             </div>
                             <h4 class="aw">賃貸管理</h4>
@@ -50,7 +50,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-3.png" alt=""> -->
+                               
                                 <i class="far fa-handshake fa-3x aw"></i>
                             </div>
                             <h4 class="aw">賃貸物件の紹介</h4>
@@ -61,7 +61,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-1.png" alt=""> -->
+                               
                                 <i class="fas fa-user-shield fa-3x aw"></i>
                             </div>
                             <h4 class="aw">保険代理店業務</h4>
@@ -73,7 +73,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-1.png" alt=""> -->
+                                
                                 <i class="fas fa-users fa-3x aw"></i>
                             </div>
                             <h4 class="aw">不動産コンサルティング</h4>
@@ -84,7 +84,7 @@ Template Name: service
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <!-- <img src="img/icon/f-icon-1.png" alt=""> -->
+                               
                                 <i class="fas fa-map-signs fa-3x aw"></i>
                             </div>
                             <h4 class="aw">不動産物件仲介業務</h4>
@@ -306,22 +306,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-5.png" alt="">
+                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-5.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-6.png" alt="">
+                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-6.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-7.png" alt="">
+                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-7.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-8.png" alt="">
+                                        <img src="<?php get_template_directory_uri(  )?>/   img/team/people/people-8.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -339,22 +339,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-9.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-9.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-10.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-10.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-11.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-11.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-12.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-12.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -406,22 +406,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-13.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-13.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-14.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-14.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-15.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-15.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-16.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-16.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -439,22 +439,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-17.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-17.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-18.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-18.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-19.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-19.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-20.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-20.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -502,22 +502,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-21.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-21.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-22.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-22.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-23.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-23.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-24.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-24.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -535,22 +535,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-25.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-25.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-26.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-26.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-27.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-27.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-28.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-28.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -575,93 +575,4 @@ Template Name: service
         </section>
          <!--================End Service Area =================-->
         
-        <!--================Footer Area =================-->
-        <footer class="footr_area">
-            <div class="footer_widget_area">
-                <div class="container">
-                    <div class="row footer_widget_inner">
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/footer-logo.png" alt="">
-                                <h4 class="bottomtitle">BR TRUSTY株式会社</h4>
-                                <p>〒150-0046<br/> 東京都渋谷区松濤２丁目２０−１０<br/>TEL:03-5790-9700</p>
-                            </aside> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_insta_widget">
-                                <div class="f_title">
-                                    <h3></h3>
-                                </div>
-                                <!-- <ul>
-                                    <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-7.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-8.jpg" alt=""></a></li>
-                                </ul> -->
-                            </aside>
-                        </div>
-                        <!-- <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_subs_widget">
-                                <div class="f_title">
-                                    <h3>Subscribe to newsletter</h3>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                            </aside>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="footer_copyright">
-                <div class="container">
-                    <div class="float-sm-left">
-                        <h5>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by BR TRUSTY
-</h5>
-                    </div>
-                   
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        
-        
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Rev slider js -->
-        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <!-- Extra plugin css -->
-        <script src="vendors/counterup/jquery.waypoints.min.js"></script>
-        <script src="vendors/counterup/jquery.counterup.min.js"></script> 
-        <script src="vendors/counterup/apear.js"></script>
-        <script src="vendors/counterup/countto.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="vendors/circle-bar/circle-progress.min.js"></script>
-        <script src="vendors/circle-bar/plugins.js"></script>
-        
-        <script src="js/circle-active.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
-</html>
+       <?php get_Footer();?>

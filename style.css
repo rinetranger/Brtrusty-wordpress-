@@ -494,7 +494,7 @@ _:-ms-lang(x)::-ms-backdrop, .main_menu_area.navbar_fixed {
 
 .testimonials_slider:before {
   content: "";
-  background: url(../img/3d-shap.png) no-repeat scroll center center;
+  background: url("img/3d-shap.png") no-repeat scroll center center;
   height: 600px;
   max-width: 524px;
   width: 100%;
@@ -962,13 +962,13 @@ _:-ms-lang(x)::-ms-backdrop, .main_menu_area.navbar_fixed {
   z-index: 3;
 }
 .service_solution_area2 {
-  background: url(../img/service-bg3.jpg) no-repeat fixed center right;
+  background: url("/img/service-bg3.jpg") no-repeat fixed center right;
   background-size: cover;
   position: relative;
   z-index: 3;
 }
 .service_solution_area4 {
-  background: url(../img/service-bg4.jpg) no-repeat fixed center right;
+  background: url("img/service-bg4.jpg") no-repeat fixed center right;
   background-size: cover;
   position: relative;
   z-index: 3;
@@ -1195,7 +1195,7 @@ _:-ms-lang(x)::-ms-backdrop, .main_menu_area.navbar_fixed {
 
 .best_3d_area .left_3d:before {
   content: "";
-  background: url(../img/top5.jpg) no-repeat scroll center center;
+  background: url("img/top5.jpg") no-repeat scroll center center;
   background-size: cover;
   min-height: 100%;
   position: absolute;
@@ -2783,7 +2783,7 @@ background-color:#CCCCCC;
   #boxsh{
     box-shadow: none;
   }
-}
+} 
 
 
 @media screen and (min-width: 479px)  {

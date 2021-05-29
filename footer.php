@@ -5,7 +5,7 @@
                 <div class="row footer_widget_inner">
                     <div class="col-lg-6 col-sm-6 mt-5">
                         <aside class="f_widget f_about_widget">
-                            <img src="img/footer-logo.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/footer-logo.png" alt="">
                             <h4 class="bottomtitle">BR TRUSTY株式会社</h4>
                             <p>〒150-0046<br/> 東京都渋谷区松濤２丁目２０−１０<br/>TEL:03-5790-9700</p>
                         </aside> 
@@ -16,7 +16,7 @@
                     <div class="col-lg-6 col-sm-6 mt-5">
                         <div class="mt-5">
                             <div class="mt-5">
-                                <img src="./img/footerimg.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/footerimg.png">
                             </div>
                             
                         </div>

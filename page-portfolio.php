@@ -51,7 +51,7 @@ Template Name: portfolio
 
                     </div>
                     <div class="challange_img_inner" id="boxsh">
-                        <img class="img-fluid" src="img/port01.png" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/port01.png" alt="">
                     </div>
 
                 </div>
@@ -148,7 +148,7 @@ Template Name: portfolio
                                 ローンを利用して1室を購入、マンション投資を始められる場合、頭金も小額で、また簡単に始めることができ、家賃収入をベースに様々なメリットを享受することができる資産形成の方法と言えます。
                                 昨今では、ご自身とご家族の将来を、より豊かにするために、効率的な資産運用の手段としてのマンション経営を始められる方が大変増えています。</p>
                                 <div class="challange_img_inner mt-5" id="boxsh">
-                                    <img class="img-fluid" src="img/port100.png" alt="">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/port100.png" alt="">
                                 </div>
     
                             <div class="clearfix"></div>
@@ -412,97 +412,4 @@ Template Name: portfolio
 
 
     <!--================Footer Area =================-->
-    <footer class="footr_area">
-        <div class="footer_widget_area">
-            <div class="container">
-                <div class="row footer_widget_inner">
-                    <div class="col-lg-4 col-sm-6">
-                        <aside class="f_widget f_about_widget">
-                            <img src="img/footer-logo.png" alt="">
-                            <h4 class="bottomtitle">BR TRUSTY株式会社</h4>
-                            <p>〒150-0046<br /> 東京都渋谷区松濤２丁目２０−１０<br />TEL:03-5790-9700</p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <aside class="f_widget f_insta_widget">
-                            <div class="f_title">
-                                <h3></h3>
-                            </div>
-                            <!-- <ul>
-                                    <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-7.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-8.jpg" alt=""></a></li>
-                                </ul> -->
-                        </aside>
-                    </div>
-                    <!-- <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_subs_widget">
-                                <div class="f_title">
-                                    <h3>Subscribe to newsletter</h3>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                            </aside>
-                        </div> -->
-                </div>
-            </div>
-        </div>
-        <div class="footer_copyright">
-            <div class="container">
-                <div class="float-sm-left">
-                    <h5>
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-                        </script> All rights reserved by BR TRUSTY
-                    </h5>
-                </div>
-               
-            </div>
-        </div>
-    </footer>
-    <!--================End Footer Area =================-->
-
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Rev slider js -->
-    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <!-- Extra plugin css -->
-    <script src="vendors/counterup/jquery.waypoints.min.js"></script>
-    <script src="vendors/counterup/jquery.counterup.min.js"></script>
-    <script src="vendors/counterup/apear.js"></script>
-    <script src="vendors/counterup/countto.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="vendors/circle-bar/circle-progress.min.js"></script>
-    <script src="vendors/circle-bar/plugins.js"></script>
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-
-    <script src="js/circle-active.js"></script>
-    <script src="js/theme.js"></script>
-</body>
-
-</html>
+    <?php get_footer();?>

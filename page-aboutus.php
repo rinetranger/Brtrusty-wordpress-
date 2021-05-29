@@ -50,7 +50,7 @@ Template Name: aboutus
                     </div>
                     <div class="col-lg-6 challange_img">
                         <div class="challange_img_inner">
-                            <img class="img-fluid" src="img/popup-photo.png" alt="">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/popup-photo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ Template Name: aboutus
                                         </tr>
                                         <tr>
                                             <td class="backg">組織図</td>
-                                            <td><img src="img/component01.png" class="img000"></td>
+                                            <td><img src="<?php echo get_template_directory_uri(); ?>/img/component01.png" class="img000"></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -249,22 +249,22 @@ Template Name: aboutus
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-1.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-2.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-3.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="img/team/people/people-4.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-4.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -274,4 +274,4 @@ Template Name: aboutus
             </div>
         </section>
         
-        <?php get_footer()?>  
+        <?php echo get_footer()?>  

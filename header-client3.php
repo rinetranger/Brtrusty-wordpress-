@@ -23,7 +23,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
         <link href="<?php echo get_template_directory_uri(); ?>/vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
         
-        <link href="<?php echo get_template_directory_uri(); ?>" rel="stylesheet">
+        <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
         <link href="<?php echo get_template_directory_uri(); ?>/css/responsive.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">

@@ -5,27 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <link rel="icon" href="img/fav-icon.png" type="<?php echo get_template_directory_uri(); ?>image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>BR TRUSTY</title>
 
         <!-- Icon css link -->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" rel="stylesheet">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
         
         <!-- Rev slider css -->
-        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
-        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
-        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/vendors/revolution/css/navigation.css" rel="stylesheet">
         
         <!-- Extra plugin css -->
-        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-        <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
         
         
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
+        <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/responsive.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="<?php echo get_home_url('/')?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>

@@ -86,7 +86,7 @@
                                 <li class="nav-item"><a class="nav-link" href="client3.php">売却のお問合せ</a></li>
                             </ul>
                         </li> 
-                        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="page-contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>

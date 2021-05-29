@@ -237,7 +237,7 @@
                             </div>
                             <h4 class="aw">不動産物件販売</h4>
                             <p class="">弊社ではお客様のニーズに合わせて、分譲ファミリーマンションや一戸建ての販売も行っております。</p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-service#service001">Read More</a>
+                            <a class="more_btn" href="page-service#service001">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -248,7 +248,7 @@
                             </div>
                             <h4 class="aw">賃貸管理</h4>
                             <p class="">投資前に管理者を選定することはとても大切です。オーナー様の煩わしい全ての手続きを代行いたします。</p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-pm">Read More</a>
+                            <a class="more_btn" href="page-pm">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -259,7 +259,7 @@
                             </div>
                             <h4 class="aw">賃貸物件の紹介</h4>
                             <p class="">弊社では、お部屋探しのお手伝いも行っております。ご要望に沿った物件をご紹介いたします。お気軽にご相談ください。 </p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-service#service003">Read More</a>
+                            <a class="more_btn" href="page-service#service003">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -271,7 +271,7 @@
                             <h4 class="aw">保険代理店業務</h4>
                             <p class="">当社では
                                 東京海上日動火災保険（株）の保険商品をご紹介しております。 </p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-service#service004">Read More</a>
+                            <a class="more_btn" href="page-service#service004">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -282,7 +282,7 @@
                             </div>
                             <h4 class="aw">不動産コンサルティング</h4>
                             <p class="">当社では、不動産に係る全ての領域をカバーするコンサルティング業務を展開しております。不動産に関するアドバイザーがご必要な方、是非ご相談ください。 </p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-service#service005">Read More</a>
+                            <a class="more_btn" href="page-service#service005">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -293,7 +293,7 @@
                             </div>
                             <h4 class="aw">不動産物件仲介業務</h4>
                             <p class="">不動産の売却をお考えの方、当社では不動産売却のお手伝いをいたします。是非ご相談ください。 </p>
-                            <a class="more_btn" href="<?php echo get_template_directory_uri(); ?>/page-service#service006">Read More</a>
+                            <a class="more_btn" href="page-service#service006">Read More</a>
                         </div>
                     </div>
                     
@@ -361,4 +361,4 @@
         <!--================End Map Area =================-->
         
 
-   <?php get_footer()?>    
+   <?php echo get_footer()?>    
