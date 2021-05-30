@@ -19,7 +19,10 @@ Template Name: client2
             <div class="container">
                 <div class="row get_touch_inner">
                     <div class="col-lg-6">
-                        <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                    <?php the_content(); ?>
+                    <?php endwhile; endif; ?> 
+                        <!-- <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="form-group col-lg-6">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="お名前">
                             </div>
@@ -55,7 +58,7 @@ Template Name: client2
                             <div class="form-group col-lg-12">
                                 <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
                             </div>
-                        </form>
+                        </form> -->
                         <div id="accordion" role="tablist" class="solution_collaps">
                             <div class="card">
                                 <div class="card-header" role="tab" id="headingOne">

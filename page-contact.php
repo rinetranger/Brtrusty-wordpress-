@@ -19,23 +19,12 @@ Template Name: contact
             <div class="container">
                 <div class="row get_touch_inner">
                     <div class="col-lg-6">
-                        <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="form-group col-lg-6">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="お名前">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="件名*">
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="内容"></textarea>
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
-                            </div>
-                        </form>
+                   
+                       
+                    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                    <?php the_content(); ?>
+                    <?php endwhile; endif; ?> 
+                        
 
                         <div id="accordion" role="tablist" class="solution_collaps">
                             <div class="card">
@@ -174,161 +163,9 @@ Template Name: contact
         
         <!--================Map Area =================-->
         <section class="contact_map_area">
-           
-            <!-- <div id="mapBox1" class="mapBox1 row m0"  
-                data-lat="35.659788571254644" 
-                data-lon="139.68948053068385" 
-                data-zoom="16" 
-                data-marker="" 
-                data-info=""
-                data-mlat=""
-                data-mlon="">
-            </div> -->
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7270669079926!2d139.68720601523893!3d35.65909553879317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188caaca06f795%3A0xad174d7414ca8ca7!2z77yi77yy77y077yy77y177yz77y077y577yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1620358092907!5m2!1sja!2sjp" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <!-- <div class="map_location_box">
-                <div class="container">
-                    <div class="map_l_box_inner">
-                        <div class="bd-callout">
-                            <h3>渋谷 Office</h3>
-                            <p>Casemates Square, no253 <br /> United kingdom</p>
-                            <h4><a href="#">+453678 9283 559</a> <a href="#">contact@template.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+           
         </section>
         <!--================End Map Area =================-->
         
-        <!--================Footer Area =================-->
-        <footer class="footr_area">
-            <div class="footer_widget_area">
-                <div class="container">
-                    <div class="row footer_widget_inner">
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/footer-logo.png" alt="">
-                                <h4 class="bottomtitle">BR TRUSTY株式会社</h4>
-                                <p>〒150-0046<br/> 東京都渋谷区松濤２丁目２０−１０<br/>TEL:03-5790-9700</p>
-                            </aside> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_insta_widget">
-                                <div class="f_title">
-                                    <h3></h3>
-                                </div>
-                                <!-- <ul>
-                                    <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-7.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-8.jpg" alt=""></a></li>
-                                </ul> -->
-                            </aside>
-                        </div>
-                        <!-- <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_subs_widget">
-                                <div class="f_title">
-                                    <h3>Subscribe to newsletter</h3>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                            </aside>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="footer_copyright">
-                <div class="container">
-                    <div class="float-sm-left">
-                        <h5>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by BR TRUSTY
-</h5>
-                    </div>
-                    
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>送信完了いたしました。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modals error -->
-
-        <div id="error" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Sorry !</h2>
-                        <p> エラー。もう一度内容をお確かめください。 </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================End Contact Success and Error message Area =================-->
-        
-        
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Rev slider js -->
-        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <!-- Extra plugin css -->
-        <script src="vendors/counterup/jquery.waypoints.min.js"></script>
-        <script src="vendors/counterup/jquery.counterup.min.js"></script> 
-        <script src="vendors/counterup/apear.js"></script>
-        <script src="vendors/counterup/countto.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="vendors/circle-bar/circle-progress.min.js"></script>
-        <script src="vendors/circle-bar/plugins.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        
-        <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
-        
-        <script src="js/circle-active.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
-</html>
+        <?php get_footer();?>

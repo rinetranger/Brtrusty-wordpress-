@@ -80,9 +80,9 @@
                                 お客様窓口
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="page-clinet">退去申請</a></li>
-                                <li class="nav-item"><a class="nav-link" href="page-clinet2">購入のお問合せ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="page-clinet3">売却のお問合せ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-client">退去申請</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-client2">購入のお問合せ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-client3">売却のお問合せ</a></li>
                             </ul>
                         </li> 
                         

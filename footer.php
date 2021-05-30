@@ -43,7 +43,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
