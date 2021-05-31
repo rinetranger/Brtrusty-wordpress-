@@ -61,7 +61,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="<?php echo home_url("/"); ?>">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="<?php echo get_home_url("/")?>">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="page-aboutus">会社概要</a></li>
                         <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="page-service" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

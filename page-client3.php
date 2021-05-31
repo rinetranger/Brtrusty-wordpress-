@@ -222,4 +222,4 @@ Template Name: client3
         
         <!--================End Map Area =================-->
         
-       <?php get_header();?>
+        <?php get_footer();?>
