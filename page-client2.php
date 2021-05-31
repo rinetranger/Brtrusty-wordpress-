@@ -2,7 +2,7 @@
 /*
 Template Name: client2
 */
- get_header("client2");?> 
+get_header("client2");?> 
 <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">

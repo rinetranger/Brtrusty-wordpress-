@@ -37,7 +37,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-        
+        <?php wp_head();?>
 
     </head>
     <body>
@@ -54,7 +54,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item nav-line"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item nav-line"><a class="nav-link" href="<?php echo get_home_url("/")?>/index.php">Home</a></li>
                         <li class="nav-item nav-line"><a class="nav-link" href="page-aboutus">会社概要</a></li>
 
                         <li class="nav-item dropdown submenu">

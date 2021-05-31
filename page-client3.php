@@ -3,6 +3,7 @@
 Template Name: client3
 */
  get_header("client3");?> 
+
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">

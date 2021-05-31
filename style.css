@@ -962,7 +962,7 @@ _:-ms-lang(x)::-ms-backdrop, .main_menu_area.navbar_fixed {
   z-index: 3;
 }
 .service_solution_area2 {
-  background: url("/img/service-bg3.jpg") no-repeat fixed center right;
+  background: url("img/service-bg3.jpg") no-repeat fixed center right;
   background-size: cover;
   position: relative;
   z-index: 3;
