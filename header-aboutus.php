@@ -42,7 +42,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="<?php echo get_home_url("/")?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="<?php echo home_url( '/' );?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>

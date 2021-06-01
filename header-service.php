@@ -10,7 +10,11 @@
         <title>BR TRUSTY株式会社</title>
 
         <!-- Icon css link -->
-        <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" rel="stylesheet">
+        
+        <link href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
         
@@ -42,7 +46,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="<?php echo get_home_url("/")?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="<?php echo home_url( '/' );?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -51,7 +55,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="<?php echo get_home_url("/")?>">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="page-aboutus">会社概要</a></li>
                         <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="page-service" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

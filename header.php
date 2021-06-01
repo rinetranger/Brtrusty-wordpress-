@@ -48,7 +48,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php echo home_url( '/' );?>">
                     <img class="toplogo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
   
                 </a>
