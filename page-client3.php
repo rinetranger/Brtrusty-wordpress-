@@ -218,8 +218,4 @@ Template Name: client3
         </section>
         <!--================End Get in Touch Area =================-->
         
-        <!--================Map Area =================-->
-        
-        <!--================End Map Area =================-->
-        
         <?php get_footer();?>

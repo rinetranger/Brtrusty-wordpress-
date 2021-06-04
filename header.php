@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         
         <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>BR TRUSTY株式会社</title>
-
+        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。不動産を通じてお客様に感動をあたえ、皆様の幸せづくりのお手伝いをしたい。">
 
         <!-- Icon css link -->
         <link href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css" rel="stylesheet">

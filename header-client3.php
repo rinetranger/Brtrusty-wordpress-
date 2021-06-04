@@ -7,7 +7,7 @@
         
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>BR TRUSTY</title>
+        <title>BR TRUSTY株式｜売却問い合わせ</title>
 
         <!-- Icon css link -->
         <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" rel="stylesheet">

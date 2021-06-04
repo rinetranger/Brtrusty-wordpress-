@@ -121,6 +121,14 @@ Template Name: aboutus
                                             <td>三井住友銀行 渋谷駅前支店</td>
                                         </tr>
                                         <tr>
+                                            <td class="backg">顧問弁護士</td>
+                                            <td>弁護士法人mamori</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="backg">顧問税理士</td>
+                                            <td>株式会社グローバル・パートナーズ・コンサルティング</td>
+                                        </tr>
+                                        <tr>
                                             <td class="backg">TEL</td>
                                             <td>03-5790-9700</td>
                                         </tr>

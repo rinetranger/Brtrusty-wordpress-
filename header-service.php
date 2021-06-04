@@ -7,7 +7,8 @@
         
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>BR TRUSTY株式会社</title>
+        <title>BR TRUSTY株式会社｜事業内容</title>
+        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。不動産を通じてお客様に感動をあたえ、皆様の幸せづくりのお手伝いをしたい。">
 
         <!-- Icon css link -->
         
@@ -78,16 +79,7 @@
                                 <li class="nav-item"><a class="nav-link" href="page-client3">売却のお問合せ</a></li>
                             </ul>
                         </li> 
-                        <!-- <li class="nav-item dropdown submenu">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.php">Elements</a></li>
-                            </ul>
-                        </li> -->
+                       
                         <li class="nav-item"><a class="nav-link" href="page-contact">Contact</a></li>
                     </ul>
                 </div>

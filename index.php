@@ -2,7 +2,7 @@
         <!--================Slider Area =================-->
         <section class="main_slider_area">
             <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
-                <video id="bg-video" src="<?php echo get_template_directory_uri(); ?>/img/BRTRUSTY4.mp4" poster="img/home-slider/slider-bg-1.png" autoplay loop playsinline muted class="video"></video>
+                <video id="bg-video" src="<?php echo get_template_directory_uri(); ?>/img/BRTRUSTY4.mp4" poster="<?php echo get_template_directory_uri(); ?>/img/home-slider/slider-bg-1.png" autoplay loop playsinline muted class="video"></video>
                 <ul>
                     <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- LAYER NR. 1 -->
