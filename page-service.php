@@ -20,7 +20,7 @@ Template Name: service
         <section class="feature_area">
             <div class="container">
                 <div class="c_title">
-                    <img src="img/icon/title-icon.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
                     <h6>Real Estate for Future</h6>
                     <h2 class="title01">BR TRUSTYでは、不動産投資に関するさまざまなサービスを提供しています。</h2>
                 </div>
@@ -306,22 +306,22 @@ Template Name: service
                             <div class="row">
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-5.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-5.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-6.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-6.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="<?php get_template_directory_uri(  )?>/img/team/people/people-7.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-7.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-6">
                                     <div class="team_img_item">
-                                        <img src="<?php get_template_directory_uri(  )?>/   img/team/people/people-8.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/team/people/people-8.png" alt="">
                                     </div>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@
         <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>BR TRUSTY株式会社</title>
-        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。不動産を通じてお客様に感動をあたえ、皆様の幸せづくりのお手伝いをしたい。">
+        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。不動産を通じてお客様に感動をあたえ、皆様の幸せづくりのお手伝いをしたい。 お問い合わせは03-5790-9700まで。">
 
         <!-- Icon css link -->
         <link href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css" rel="stylesheet">
@@ -39,10 +39,11 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-       <?php wp_head();?>
+ 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <?php wp_head();?>
     </head>
     <body>
         

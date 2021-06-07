@@ -8,7 +8,7 @@
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>BR TRUSTY株式会社｜事業内容</title>
-        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。不動産を通じてお客様に感動をあたえ、皆様の幸せづくりのお手伝いをしたい。">
+        <meta name="description" content="東京都・千葉県・埼玉県・神奈川県のマンション経営、賃貸管理、不動産買取・仲介・販売・はBRトラスティーにお任せください。事業内容につきましてお問い合わせは03-5790-9700まで。">
 
         <!-- Icon css link -->
         
@@ -18,6 +18,7 @@
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         
         <!-- Rev slider css -->
         <link href="<?php echo get_template_directory_uri(); ?>/vendors/revolution/css/settings.css" rel="stylesheet">
