@@ -1,5 +1,5 @@
  <!--================Footer Area =================-->
- <footer class="footr_area">
+ <footer class="footer_area">
         <div class="footer_widget_area">
             <div class="container">
                 <div class="row footer_widget_inner">
@@ -9,7 +9,8 @@
                             <h4 class="bottomtitle">BR TRUSTY株式会社</h4>
                             <p>〒150-0046<br/> 東京都渋谷区松濤２丁目２０−１０<br/>TEL:03-5790-9700</p>
                         </aside> 
-                    
+                        <a href="https://lin.ee/5POpwEk" ><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0" style="margin-top:16px;"></a>
+                            <a><img src="<?php echo get_template_directory_uri(); ?>/img/S_gainfriends_qr.png" alt="line" border="0" style="margin-top:16px;margin-left:16px;"></a>
                         
                     </div>
                
@@ -64,8 +65,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="<?php echo get_template_directory_uri(); ?>/vendors/moji/moji.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/vjs/smoothscroll.js"></script>
-        
+        <script src="<?php echo get_template_directory_uri(); ?>/js/smoothscroll.js"></script>  
         <script src="<?php echo get_template_directory_uri(); ?>/js/theme.js"></script>
     </body>
 </html>

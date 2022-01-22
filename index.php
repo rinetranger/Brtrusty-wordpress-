@@ -20,7 +20,7 @@
                             data-type="text" 
                             data-responsive_offset="on" 
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                            data-textAlign="['left','left','left','left','left','center']">不動産投資、売買、仲介 <br />はBR TRUSTYへ
+                            data-textAlign="['left','left','left','left','left','center']">不動産売買、仲介、賃貸管理 <br />はBR TRUSTYへ
                             </div>
                             
                             <div class="tp-caption tp-resizeme secand_text title00" 
@@ -163,7 +163,7 @@
                             data-type="text" 
                             data-responsive_offset="on" 
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                            data-textAlign="['left','left','left','left','left','center']">不動産投資,売買,仲介 <br />はBR TRUSTYへ
+                            data-textAlign="['left','left','left','left','left','center']">不動産売買,仲介、賃貸管理 <br />はBR TRUSTYへ
                         </div>
                             
                             <div class="tp-caption tp-resizeme secand_text title00" 
@@ -224,9 +224,9 @@
         <section class="feature_area">
             <div class="container">
                 <div class="c_title">
-                    <img src="./img/icon/title-icon.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
                     <h6>Real Estate for Future</h6>
-                    <h2 class="title01" id="moji">BR TRUSTYでは、不動産投資に関するさまざまなサービスを提供しています。</h2>
+                    <h2 class="title01" id="moji">BR TRUSTYでは、不動産に関するさまざまなサービスを提供しています。</h2>
                 </div>
                 <div class="row feature_inner">
                     <div class="col-lg-4 col-sm-6">
@@ -340,6 +340,8 @@
                                 （土・日・祝日を除く）   </p>
                             <h5>お気軽にお電話ください。</h5>
                             <a  class="tel" href="tel:0357909700"><h4><i class="fa fa-phone-square fa-x aw"></i>  03-5790-9700</h4></a>
+                            <a href="https://lin.ee/5POpwEk" ><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0" style="margin-top:16px;"></a>
+                            <a><img src="<?php echo get_template_directory_uri(); ?>/img/S_gainfriends_qr.png" alt="line" border="0" style="margin-top:16px;margin-left:16px;"></a>
                         </div>
                     </div>
                 </div>
